@@ -15,3 +15,8 @@ You have to replace in the code the following parameters:
   csv_file_path = 'File.csv'
   your_email = 'myemail@yahoo.com'
   your_token = '123456'
+
+IssueRport:
+This script will create a report of the issues of a spexific project in Practitest.
+You have to replace in the code the following parameters:
+  
