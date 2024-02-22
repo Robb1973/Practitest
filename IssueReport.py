@@ -3,10 +3,12 @@ import pandas as pd
 
 # Your API token and authentication
 api_token = 'your token'
-auth = ('email@example.com', api_token) 
+email = 'your email'
+auth = (email, api_token)
+project_id = 'project id'
 
 # API endpoint
-url = 'https://api.practitest.com/api/v2/projects/27739/issues.json?relationships=true'
+url = f"https://api.practitest.com/api/v2/projects/{project_id}/issues.json?relationships=true"
 
 # Make the API request
 response = requests.get(url, auth=auth)
