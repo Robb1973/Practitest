@@ -9,4 +9,9 @@ You have to replace in the code the following parameters:
   your_token = '123456'
   output_csv_path = 'all_projects_custom_fields_data.csv'
 
-  
+UpdateFields:
+This scripts update Custom fields in you PractiTest account.
+You have to replace in the code the following parameters:
+  csv_file_path = 'File.csv'
+  your_email = 'myemail@yahoo.com'
+  your_token = '123456'
